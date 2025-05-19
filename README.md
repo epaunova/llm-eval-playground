@@ -51,11 +51,17 @@ In this notebook, we:
 
 ## 📊 Sample Charts
 
-| Metric      | GPT-4 vs Mistral |
-|-------------|------------------|
-| Factuality  | ![Factuality](outputs/factuality_comparison.png) |
-| Clarity     | ![Clarity](outputs/clarity_comparison.png) |
-| Verbosity   | ![Verbosity](outputs/verbosity_comparison.png) |
+Below are comparisons between GPT-4 and Mistral across three evaluation metrics:
+
+### 🧠 Factuality
+![Factuality](https://github.com/epaunova/llm-eval-playground/raw/main/outputs/factuality_comparison.png)
+
+### 🔍 Clarity
+![Clarity](https://github.com/epaunova/llm-eval-playground/raw/main/outputs/clarity_comparison.png)
+
+### 🗣️ Verbosity
+![Verbosity](https://github.com/epaunova/llm-eval-playground/raw/main/outputs/verbosity_comparison.png)
+
 
 ---
 
