@@ -22,7 +22,7 @@ llm-eval-playground/
 ├── notebooks/ # Jupyter Notebooks for experimentation
 │ └── example_eval_comparison.ipynb
 ├── data/ # Sample prompts and model responses
-├── outputs/ # Evaluation results (CSV, JSON)
+├── outputs/ # Evaluation results and visual charts
 ├── utils/ # Optional helper scripts
 └── README.md
 
@@ -45,7 +45,17 @@ In this notebook, we:
   - ✅ Verbosity
 - Visualize results using `matplotlib`
 
-This notebook uses mocked data for demonstration, but can easily be extended with actual model outputs and integrated with the [Evaluation Toolkit](https://github.com/epaunova/LLM-Evaluation-Toolkit).
+🧪 *Note: This notebook uses mock data to demonstrate evaluation structure and visual analysis.*
+
+---
+
+## 📊 Sample Charts
+
+| Metric      | GPT-4 vs Mistral |
+|-------------|------------------|
+| Factuality  | ![Factuality](outputs/factuality_comparison.png) |
+| Clarity     | ![Clarity](outputs/clarity_comparison.png) |
+| Verbosity   | ![Verbosity](outputs/verbosity_comparison.png) |
 
 ---
 
